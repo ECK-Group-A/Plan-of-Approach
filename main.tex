@@ -1,0 +1,37 @@
+\documentclass[whitelogo, table, single]{template/tudelft-report}
+\usepackage[utf8]{inputenc}
+\usepackage{changes}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{listings}
+\usepackage{ragged2e}
+\usepackage{pgfgantt}
+\usepackage[normalem]{ulem}
+\usepackage{pdflscape}
+\usepackage{wrapfig}
+\usepackage{comment}
+\usepackage{enumitem}
+\definecolor{hague-limegreen}{RGB}{158, 167, 0}
+\definecolor{hague-grey}{RGB}{51, 63, 72}
+\usepackage[parfill]{parskip}
+
+\begin{document}
+\frontmatter
+\input{Frontpage}
+
+\pagecolor{white}
+
+\tableofcontents
+
+\mainmatter
+
+\input{hoofdstukken/Background} % luca
+\input{hoofdstukken/Project-Result} % Bas
+\input{hoofdstukken/Project-Activities} %Bas
+\input{hoofdstukken/Schedule} % Bart 
+\input{hoofdstukken/Project-Boundries} % Bob
+\input{hoofdstukken/Organisation} % Bob
+\input{hoofdstukken/Costs} % Bart
+\input{hoofdstukken/Risks} % luca
+
+\end{document}
